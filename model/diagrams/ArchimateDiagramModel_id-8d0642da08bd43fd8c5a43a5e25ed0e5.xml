@@ -113,16 +113,16 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-4cdafb8b4ba546809cff8dc81ef6d763"
+        id="id-a22272e76d7e4559b86de27b3c3311d8"
         source="id-86e964d4e6ff424a83635c02d6a2436f"
-        target="id-ce927c0606d5418d8685ca50d8b4b84e">
+        target="id-7be2f444acc848d9aa5e84de764e66d7">
       <archimateRelationship
           xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_id-0619e4b30c58446caec841e3233f871b.xml#id-0619e4b30c58446caec841e3233f871b"/>
+          href="InfluenceRelationship_id-1805bee36c2a48299cb3f795c6769c04.xml#id-1805bee36c2a48299cb3f795c6769c04"/>
     </sourceConnections>
     <bounds
         x="432"
-        y="192"
+        y="168"
         width="277"
         height="61"/>
     <archimateElement
@@ -132,12 +132,13 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-5803c5ec6d564c6ca5658f0ecf432ca1"
-      textAlignment="1">
+      textAlignment="1"
+      content="Doelstelling van de afdeling Architectuur, Security en Beleid&#xA;&#xA;In het vastgestelde veranderplan ICT Amsterdam UMC wordt de afdeling Architectuur, Security &amp; Beleid (ASB) als volgt beschreven:&#xA;&#xA;&#xA;De architecten van de Dienst ICT werken architecturen, meerjarige roadmaps, kaders en richtinggevende principes uit waarbinnen de verdere ontwikkeling en het beheer van de ICT-voorzieningen moeten plaatsvinden. Behalve de divisies en diensten van Amsterdam UMC zullen ook de ICT-leveranciers van Amsterdam UMC zich aan deze architecturen en kaders moeten conformeren. &#xA;&#xA;Bij deze afdeling is ook de verantwoordelijkheid voor het informatiebeveiligingsbeleid ondergebracht. &#xA;Het gaat zowel om security by design, om de functie van IT Security Officer (inclusief de aansturing van het zogenaamde CERT-team) als om de functie van IT-auditing waarbij wordt toegezien op een correcte uitvoering van processen en procedures conform NEN7510 en verbetervoorstellen worden geformuleerd.&#xA;&#xA;Maandelijks is er een ICT-beveiligingsoverleg met de directeur ICT.&#xA;&#xA;De belangrijkste taken en werkzaamheden van de afdeling ASB zijn:&#xA;• opstellen van architecturen, meerjarige roadmaps, kaders en principes op het gebied van applicaties, standaard ICT-diensten, datamanagement, infrastructuur en IT-security;&#xA;• voorbereiden en bewaken van de jaarlijkse vernieuwingsagenda op het gebied van ICT op basis van meerjarige roadmaps;&#xA;• waarborgen van een samenhangend en geïntegreerd ICT-landschap door het uitvoeren van architectuurtoetsen en het beoordelen/verrijken van projectvoorstellen aan de hand van vastgestelde architecturen en kaders;&#xA;• bepalen van oplossingsrichtingen, ontwerpen en koppelvlakken voor niet-standaard dienstverlening van de Dienst ICT;&#xA;• doen van voorstellen voor het harmoniseren, rationaliseren, standaardiseren en vereenvoudigen van de technische infrastructuur van Amsterdam UMC;&#xA;• bewaken dat de ICT-voorzieningen van Amsterdam UMC blijven voldoen aan de wettelijke eisen en aan vastgestelde kwaliteitsnormen (zoals NEN7510 en JCI);&#xA;• uitvoeren van de functie van IT Security Officer om bedreigingen op het gebied van ICT te voorkomen en te elimineren, inclusief de aansturing van het CERT-team;&#xA;• uitvoeren van IT-audits gericht op het bewaken van de betrouwbaarheid en beschikbaarheid van de ICT-voorzieningen;&#xA;• volgen van nieuwe ontwikkelingen op het gebied van ICT en vanuit deze ontwikkelingen adviseren over vernieuwing van de ICT-voorzieningen van Amsterdam UMC;&#xA;&#xA;&#xA; ">
     <bounds
-        x="684"
-        y="480"
-        width="445"
-        height="301"/>
+        x="576"
+        y="384"
+        width="1081"
+        height="349"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -194,7 +195,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-7be2f444acc848d9aa5e84de764e66d7"
-      targetConnections="id-bff5fd7e18794acbade817fbdc6ca315">
+      targetConnections="id-a22272e76d7e4559b86de27b3c3311d8 id-35fcee82554145e3ac7629fd79d0bea9">
     <bounds
         x="96"
         y="276"
@@ -210,7 +211,7 @@
       targetConnections="id-cfc99f8c07e4494b975a3cd8107f7983">
     <bounds
         x="264"
-        y="275"
+        y="276"
         width="145"
         height="55"/>
     <archimateElement
@@ -219,24 +220,123 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-ce927c0606d5418d8685ca50d8b4b84e"
-      targetConnections="id-4cdafb8b4ba546809cff8dc81ef6d763">
+      id="id-8fbffcd96e1d4766b2189c346ba57147">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bff5fd7e18794acbade817fbdc6ca315"
-        source="id-ce927c0606d5418d8685ca50d8b4b84e"
+        id="id-f9d240e27c644b4887ebd6176c8ff585"
+        source="id-8fbffcd96e1d4766b2189c346ba57147"
+        target="id-51fdba362654426ab42333a55dd0bd16">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-3c3467aa51cf4be3a6b247956d229912.xml#id-3c3467aa51cf4be3a6b247956d229912"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b462f9cbd6e148adb941530170bd279c"
+        source="id-8fbffcd96e1d4766b2189c346ba57147"
+        target="id-095541367c3143d19b348dd005d0cc56">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-6957eff08e5d45f9b1909186aff1c80f.xml#id-6957eff08e5d45f9b1909186aff1c80f"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-291149163ec940fb9db72983fef5cf2f"
+        source="id-8fbffcd96e1d4766b2189c346ba57147"
+        target="id-5f8b94efabbd4d89bbba9329c06dec70">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-d321e7f428b94ef2a0b647b371b571db.xml#id-d321e7f428b94ef2a0b647b371b571db"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-edc90cf42d484cbda539888262bae0d8"
+        source="id-8fbffcd96e1d4766b2189c346ba57147"
+        target="id-8b1052c294a64f90bc1f468558614412">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-d8e20ebca6e3439c8019b37004d6c087.xml#id-d8e20ebca6e3439c8019b37004d6c087"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-35fcee82554145e3ac7629fd79d0bea9"
+        source="id-8fbffcd96e1d4766b2189c346ba57147"
         target="id-7be2f444acc848d9aa5e84de764e66d7">
       <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_id-9874ee584f3b44cf8400285d5454709d.xml#id-9874ee584f3b44cf8400285d5454709d"/>
+          xsi:type="archimate:RealizationRelationship"
+          href="RealizationRelationship_id-7ead13b85e154913aa2cfb36bed6678d.xml#id-7ead13b85e154913aa2cfb36bed6678d"/>
     </sourceConnections>
     <bounds
-        x="133"
-        y="204"
-        width="120"
-        height="55"/>
+        x="24"
+        y="420"
+        width="457"
+        height="289"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-51fdba362654426ab42333a55dd0bd16"
+        targetConnections="id-f9d240e27c644b4887ebd6176c8ff585">
+      <bounds
+          x="55"
+          y="36"
+          width="157"
+          height="85"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-a69ea2f1af3b4c91922b59430af43c70.xml#id-a69ea2f1af3b4c91922b59430af43c70"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-095541367c3143d19b348dd005d0cc56"
+        targetConnections="id-b462f9cbd6e148adb941530170bd279c">
+      <bounds
+          x="259"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-33758cf385d64e6896deba97f20a31dc.xml#id-33758cf385d64e6896deba97f20a31dc"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-5f8b94efabbd4d89bbba9329c06dec70"
+        targetConnections="id-291149163ec940fb9db72983fef5cf2f">
+      <bounds
+          x="74"
+          y="144"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-1b991719106243ac8498f94dac441afc.xml#id-1b991719106243ac8498f94dac441afc"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-0b5fe65b0220491d8f22b317071cb4a7">
+      <bounds
+          x="259"
+          y="144"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Product"
+          href="Product_id-07006124884a4c679386490783a1ed73.xml#id-07006124884a4c679386490783a1ed73"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-8b1052c294a64f90bc1f468558614412"
+        targetConnections="id-edc90cf42d484cbda539888262bae0d8">
+      <bounds
+          x="168"
+          y="216"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_id-b17829a90f2240f78c8a0fc31eefc456.xml#id-b17829a90f2240f78c8a0fc31eefc456"/>
+    </children>
     <archimateElement
-        xsi:type="archimate:Goal"
-        href="Goal_id-babd768e708f4de9b8d8d08bbc23d31f.xml#id-babd768e708f4de9b8d8d08bbc23d31f"/>
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-4497b49094e241f6bbe3e0e91d2cf2c6.xml#id-4497b49094e241f6bbe3e0e91d2cf2c6"/>
   </children>
 </archimate:ArchimateDiagramModel>
